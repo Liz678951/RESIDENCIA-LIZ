@@ -1,0 +1,58 @@
+$(document).ready(function () {
+    $(document).on('click', '#boton1', function () {
+        var id = $(this).val();
+        var nombre = $('#nombre1' + id).text();
+        var apellido_paterno = $('#apellido_paterno1' + id).text();
+        var apellido_materno = $('#apellido_materno1' + id).text();
+        var curp = $('#curp' + id).text();
+        var rfc = $('#Licencia' + id).text();
+        var estado = $('#estado' + id).text();
+        var estudios = $('#estudios' + id).text();
+        var telefono = $('#telefono' + id).text();
+        var sexo = $('#sexo' + id).text();
+        var fecha = $('#fecha' + id).text();
+        var calle = $('#calle' + id).text();
+        var colonia = $('#colonia' + id).text();
+        var num_int = $('#num_int' + id).text();
+        var num_ext = $('#num_ext' + id).text();
+        var localidad = $('#localidad' + id).text();
+        var municipio = $('#municipio' + id).text();
+        var referencia = $('#referencia' + id).text();
+        var contraseña = $('#password1' + id).text();
+        var correo = $('#correo' + id).text();
+        var ocupacion = $('#Ocupacion' + id).text();
+        var cp = $('#cp' + id).text();
+        var priv = $('#Priv' + id).text();
+        var foto = $('#foto' + id).text();
+
+        $('#actualizar_empleado').modal('show');
+        $('#inputusuario11').val(nombre);
+        $('#inputapellidopaterno11').val(apellido_paterno);
+        $('#inputapellidomaterno11').val(apellido_materno);
+        $('#inputcurp11').val(curp);
+        $('#inputrfc11').val(rfc);
+        $('#inputestudios11').val(estudios);
+        $('#inputcel11').val(telefono);
+        $('#inputsexo11').val(sexo);
+        $('#inputedocivil11').val(estado);
+        $('#fechaNac11').val(fecha);
+        $('#calle11').val(calle);
+        $('#colonia11').val(colonia);
+        $('#No_interior11').val(num_int);
+        $('#No_exterior11').val(num_ext);
+        $('#localidad11').val(localidad);
+        $('#municipio11').val(municipio);
+        $('#ref11').val(referencia);
+        $('#inputcorreo11').val(correo);
+        $('#inputocupacion11').val(ocupacion);
+        $('#cp11').val(cp);
+        $('#inputpass11').val(contraseña);
+        $('#inputpass21').val(contraseña);
+        $("#img111").attr("src", foto);
+        $('#inputprivilegios11').val(priv);
+        $('#your_pictur11').val(foto);
+        
+        $('#Fotografemp').val(foto);
+        $('#Id_emp').val(id);
+    });
+});

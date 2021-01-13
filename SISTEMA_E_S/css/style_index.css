@@ -1,0 +1,148 @@
+.login-dark {
+    height:auto;
+    background:#1397b4 ;
+    background-size:cover;
+    position:relative;
+    margin-top: 172px;
+  }
+  
+  .login-dark form {
+    /* max-width:320px; */
+    /* width:90%; */
+    background-color:#ffffff;
+    padding:23px;
+    border-radius:6%;
+    transform:translate(-50%, -50%);
+    position:absolute;
+    top:30%;
+    left:50%;
+    color:#fff;
+    box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+    border: 3px #ea204279 solid;
+  }
+  
+  .login-dark .illustration {
+    text-align:center;
+    padding:15px 0 20px;
+    font-size:100px;
+    color:#2980ef;
+  }
+  
+  .login-dark form .form-control {
+    background:none;
+    border:none;
+    border-bottom:1px solid #434a52;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    color:black;
+  }
+  
+  .login-dark form .btn-primary {
+    background:#07a93d;
+    border:none;
+    border-radius:4px;
+    padding:11px;
+    box-shadow:none;
+    margin-top:26px;
+    text-shadow:none;
+    outline:none;
+    font-size: 12px;
+    font-family: 'Arial Narrow';
+    color: black;
+  }
+  .login-dark form .btn-success {
+    background:#07a93d;
+    border:none;
+    border-radius:4px;
+    padding:11px;
+    box-shadow:none;
+    margin-top:26px;
+    text-shadow:none;
+    outline:none;
+    font-size: 12px;
+    font-family: 'Arial Narrow';
+    color: black;
+  }
+
+
+  #ingresar{
+    color: rgb(255, 255, 255);
+    font-family: 'Arial Narrow';
+    font-size: 13px;
+  }
+  
+  .login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+    background:#fdb225;
+    color: black;
+    outline:none;
+  }
+  
+  .login-dark form .forgot {
+    display:block;
+    text-align:center;
+    font-size:12px;
+    color:#6f7a85;
+    opacity:0.9;
+    text-decoration:none;
+  }
+  
+  .login-dark form .forgot:hover, .login-dark form .forgot:active {
+    opacity:1;
+    text-decoration:none;
+  }
+  
+  .login-dark form .btn-primary:active {
+    transform:translateY(1px);
+  }
+  
+  #py-5{
+      padding-top: 1.4rem;
+      padding-bottom: 1.4rem;
+    
+  }
+
+  input{
+    text-align: center;
+    font-family: 'Arial Narrow';
+  }
+
+  #log_log{
+    width: auto;
+    height: 50px;
+    background: url(../img/your-picture.png) center center no-repeat;
+    background-size: contain;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+
+  }
+
+  @media (max-width: 767px) {
+    .login-dark form {
+      max-width:320px;
+      width:90%;
+      background-color:rgba(255, 255, 255, 0.911);
+      padding:40px;
+      border-radius:6%;
+      transform:translate(-50%, -50%);
+      position:absolute;
+      top:50%;
+      left:50%;
+      color:#fff;
+      box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+      border: 3px #ea204279 solid;
+      margin-top: 160px;
+    }
+#central_prin{
+  height: 77vh;
+}
+
+#img_index{
+  width: 90%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 19px;
+}
+  }
